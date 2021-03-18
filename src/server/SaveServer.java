@@ -129,7 +129,7 @@ public class SaveServer extends JFrame {
             	while(rset.next()) {
             		printWriter.println(rset.getString(1));
             	}
-            	printWriter.println("ABCDEFGHIJKLMNOPQRSTU"); // Explained in YahtzeeFrame lines 108-110
+            	printWriter.println("ABCDEFGHIJKLMNOPQRSTU"); // Explained in YahtzeeFrame lines 101-103
             	wordsBox.append("Sent names \n");
             	String name = br.readLine(); // User selected name
             	if(name.equals("ABCDEFGHIJKLMNOPQRSTU")) {
